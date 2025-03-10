@@ -1,0 +1,80 @@
+[build-system]
+requires = ["hatchling>=1.0.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cursor_clicker"
+version = "0.1.0"
+description = "Automated tool for handling Cursor.sh tool call limits"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Cursor Clicker Team"}
+]
+maintainers = [
+    {name = "Cursor Clicker Team"}
+]
+keywords = ["cursor", "automation", "screenshot", "ocr", "vision"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "pyautogui>=0.9.54",
+    "PyGetWindow>=0.0.9",
+    "Pillow>=10.0.0",
+    "pytesseract>=0.3.10",
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "transformers>=4.37.0",
+    "regex>=2023.8.8",
+    "loguru>=0.7.0",
+    "numpy<2.0.0",
+    "accelerate>=0.26.0",
+    "qwen-vl-utils>=0.0.8",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-timeout>=2.2.0",
+    "pytest-asyncio>=0.23.5",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/cursor_clicker"
+"Bug Tracker" = "https://github.com/yourusername/cursor_clicker/issues"
+
+[tool.hatch.build]
+include = [
+    "src/**/*.py",
+    "pyproject.toml",
+    "README.md",
+    "LICENSE",
+]
+exclude = [
+    "**/__pycache__",
+    "**/.pytest_cache",
+    "**/*.pyc",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cursor_clicker"]
+
+[project.scripts]
+cursor-clicker = "cursor_clicker.main:main"
+continuous-monitor = "cursor_clicker.continuous_monitor:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+addopts = "-v" 

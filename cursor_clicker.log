@@ -1,0 +1,51 @@
+2025-03-10 13:49:24 | INFO     | cursor_clicker:setup_model:73 - Loading Qwen model...
+2025-03-10 13:49:24 | INFO     | cursor_clicker:setup_model:75 - Using device: cpu
+2025-03-10 13:49:28 | ERROR    | cursor_clicker:setup_model:87 - Failed to load model: Unrecognized configuration class <class 'transformers.models.qwen2_5_vl.configuration_qwen2_5_vl.Qwen2_5_VLConfig'> for this kind of AutoModel: AutoModelForCausalLM.
+Model type should be one of AriaTextConfig, BambaConfig, BartConfig, BertConfig, BertGenerationConfig, BigBirdConfig, BigBirdPegasusConfig, BioGptConfig, BlenderbotConfig, BlenderbotSmallConfig, BloomConfig, CamembertConfig, LlamaConfig, CodeGenConfig, CohereConfig, Cohere2Config, CpmAntConfig, CTRLConfig, Data2VecTextConfig, DbrxConfig, DiffLlamaConfig, ElectraConfig, Emu3Config, ErnieConfig, FalconConfig, FalconMambaConfig, FuyuConfig, GemmaConfig, Gemma2Config, GitConfig, GlmConfig, GotOcr2Config, GPT2Config, GPT2Config, GPTBigCodeConfig, GPTNeoConfig, GPTNeoXConfig, GPTNeoXJapaneseConfig, GPTJConfig, GraniteConfig, GraniteMoeConfig, GraniteMoeSharedConfig, HeliumConfig, JambaConfig, JetMoeConfig, LlamaConfig, MambaConfig, Mamba2Config, MarianConfig, MBartConfig, MegaConfig, MegatronBertConfig, MistralConfig, MixtralConfig, MllamaConfig, MoshiConfig, MptConfig, MusicgenConfig, MusicgenMelodyConfig, MvpConfig, NemotronConfig, OlmoConfig, Olmo2Config, OlmoeConfig, OpenLlamaConfig, OpenAIGPTConfig, OPTConfig, PegasusConfig, PersimmonConfig, PhiConfig, Phi3Config, PhimoeConfig, PLBartConfig, ProphetNetConfig, QDQBertConfig, Qwen2Config, Qwen2MoeConfig, RecurrentGemmaConfig, ReformerConfig, RemBertConfig, RobertaConfig, RobertaPreLayerNormConfig, RoCBertConfig, RoFormerConfig, RwkvConfig, Speech2Text2Config, StableLmConfig, Starcoder2Config, TransfoXLConfig, TrOCRConfig, WhisperConfig, XGLMConfig, XLMConfig, XLMProphetNetConfig, XLMRobertaConfig, XLMRobertaXLConfig, XLNetConfig, XmodConfig, ZambaConfig, Zamba2Config.
+2025-03-10 13:50:14 | INFO     | cursor_clicker:setup_model:73 - Loading Qwen model...
+2025-03-10 13:50:14 | INFO     | cursor_clicker:setup_model:75 - Using device: cpu
+2025-03-10 13:50:19 | ERROR    | cursor_clicker:setup_model:87 - Failed to load model: You current version of `autoawq` does not support module quantization skipping, please upgrade `autoawq` package to at least 0.1.8.
+2025-03-10 13:51:25 | INFO     | cursor_clicker:setup_model:73 - Loading Qwen model...
+2025-03-10 13:51:25 | INFO     | cursor_clicker:setup_model:75 - Using device: cpu
+2025-03-10 13:51:26 | ERROR    | cursor_clicker:setup_model:89 - Failed to load model: Qwen/Qwen2.5-VL-Chat is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-03-10 13:53:55 | INFO     | cursor_clicker:setup_model:74 - Loading Qwen model...
+2025-03-10 13:53:55 | INFO     | cursor_clicker:setup_model:76 - Using device: cpu
+2025-03-10 13:53:56 | ERROR    | cursor_clicker:setup_model:95 - Failed to load model: Qwen/Qwen2.5-VL-Chat is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-03-10 13:54:55 | INFO     | cursor_clicker:setup_model:74 - Loading Qwen model...
+2025-03-10 13:54:55 | INFO     | cursor_clicker:setup_model:76 - Using device: cpu
+2025-03-10 13:54:56 | ERROR    | cursor_clicker:setup_model:95 - Failed to load model: Fast download using 'hf_transfer' is enabled (HF_HUB_ENABLE_HF_TRANSFER=1) but 'hf_transfer' package is not available in your environment. Try `pip install hf_transfer`.
+2025-03-10 13:56:45 | INFO     | cursor_clicker:setup_model:74 - Loading Qwen model...
+2025-03-10 13:56:45 | INFO     | cursor_clicker:setup_model:76 - Using device: cpu
+2025-03-10 13:56:50 | ERROR    | cursor_clicker:setup_model:95 - Failed to load model: Using `low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install 'accelerate>=0.26.0'`
+2025-03-10 13:58:56 | INFO     | cursor_clicker:setup_model:74 - Loading Qwen model...
+2025-03-10 13:58:56 | INFO     | cursor_clicker:setup_model:76 - Using device: cpu
+2025-03-10 14:00:40 | INFO     | cursor_clicker:setup_model:92 - Model loaded successfully
+2025-03-10 14:00:43 | ERROR    | cursor_clicker:chat_with_qwen:198 - Model inference failed: "addmm_impl_cpu_" not implemented for 'Half'
+2025-03-10 14:00:43 | ERROR    | cursor_clicker:chat_with_qwen:198 - Model inference failed: "addmm_impl_cpu_" not implemented for 'Half'
+2025-03-10 14:00:43 | ERROR    | cursor_clicker:chat_with_qwen:198 - Model inference failed: "addmm_impl_cpu_" not implemented for 'Half'
+2025-03-10 14:00:43 | ERROR    | cursor_clicker:chat_with_qwen:198 - Model inference failed: 'role'
+2025-03-10 14:00:43 | ERROR    | cursor_clicker:chat_with_qwen:198 - Model inference failed: 'NoneType' object is not iterable
+2025-03-10 14:01:21 | INFO     | cursor_clicker:setup_model:74 - Loading Qwen model...
+2025-03-10 14:01:21 | INFO     | cursor_clicker:setup_model:76 - Using device: cpu
+2025-03-10 14:01:28 | INFO     | cursor_clicker:setup_model:92 - Model loaded successfully
+2025-03-10 14:01:30 | ERROR    | cursor_clicker:chat_with_qwen:198 - Model inference failed: "addmm_impl_cpu_" not implemented for 'Half'
+2025-03-10 14:01:30 | ERROR    | cursor_clicker:chat_with_qwen:198 - Model inference failed: "addmm_impl_cpu_" not implemented for 'Half'
+2025-03-10 14:01:30 | ERROR    | cursor_clicker:chat_with_qwen:198 - Model inference failed: "addmm_impl_cpu_" not implemented for 'Half'
+2025-03-10 14:01:30 | ERROR    | cursor_clicker:chat_with_qwen:198 - Model inference failed: "addmm_impl_cpu_" not implemented for 'Half'
+2025-03-10 14:05:52 | INFO     | cursor_clicker:setup_model:74 - Loading Qwen model...
+2025-03-10 14:05:52 | INFO     | cursor_clicker:setup_model:76 - Using device: cpu
+2025-03-10 14:05:58 | INFO     | cursor_clicker:setup_model:92 - Model loaded successfully
+2025-03-10 14:06:00 | ERROR    | cursor_clicker:chat_with_qwen:198 - Model inference failed: "addmm_impl_cpu_" not implemented for 'Half'
+2025-03-10 14:08:01 | INFO     | cursor_clicker:setup_model:74 - Loading Qwen model...
+2025-03-10 14:08:01 | INFO     | cursor_clicker:setup_model:76 - Using device: cpu
+2025-03-10 14:08:08 | INFO     | cursor_clicker:setup_model:96 - Model loaded successfully
+2025-03-10 14:09:00 | INFO     | cursor_clicker:setup_model:74 - Loading Qwen model...
+2025-03-10 14:09:00 | INFO     | cursor_clicker:setup_model:76 - Using device: cpu
+2025-03-10 14:09:08 | INFO     | cursor_clicker:setup_model:96 - Model loaded successfully
+2025-03-10 14:10:22 | INFO     | cursor_clicker:setup_model:74 - Loading Qwen model...
+2025-03-10 14:10:22 | INFO     | cursor_clicker:setup_model:76 - Using device: cpu
+2025-03-10 14:10:28 | INFO     | cursor_clicker:setup_model:96 - Model loaded successfully
+2025-03-10 14:10:28 | INFO     | cursor_clicker:chat_with_qwen:176 - Processing chat request
+2025-03-10 14:10:28 | ERROR    | cursor_clicker:chat_with_qwen:216 - Vision processing failed: can only concatenate str (not "list") to str
